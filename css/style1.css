@@ -126,15 +126,14 @@ body
     background-color: white;
     display: flex;
     justify-content: end;
-    align-items: center;
     height: fit-content;
     border: solid 2px black;
-    padding: 8px 10px;
 }
 
 #inside-up
 {
     min-width: 15%;
+    padding: 8px 5px ;
 }
 
 #inside-bottom
@@ -142,6 +141,8 @@ body
     margin: 0 0 40px 0;
     min-width: 35%;
     max-width: 40%;
+    align-items: end;
+    padding: 8px 5px 0px 5px;
 }
 
 #pictures
